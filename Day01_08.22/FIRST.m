@@ -1,8 +1,8 @@
 % Read image from graphic files
-A=imread('strawberries.jpg');
+A=imread('cameraman.tif');
 
 %display the original image with original pixel value
-imshow(A); %show the image in balck and white if the image is tif if the image is png then it shows the original one
+imshow(A);
 
 %view and set current colormap
 colormap('jet');
@@ -11,4 +11,5 @@ colormap('jet');
 imagesc(A);
 
  
+
  
